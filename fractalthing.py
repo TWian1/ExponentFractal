@@ -31,8 +31,3 @@ for a in x:
         if abs(start.real) > 1 or abs(start.imag) > 1:
             draw.point((floor((a+abs(xmin))*int(sz/(pxr*(abs(xmin)+xmax)))),floor((b+abs(imin))*int(sz/(pxr*(abs(imin)+imax))))), fill=(int(200/((c1+1)**2)),int(200/((c1+1)**3)),int(200/((c1+1)))))
 canvas.save("blank_canvas.jpg")
-
-
-
-
-
